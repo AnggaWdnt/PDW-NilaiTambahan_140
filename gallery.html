@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Seni</title>
+    <link rel="stylesheet" href="styles/gallery.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="javascript:void(0);" id="toggle-theme">Tema</a></li>
+            </ul>
+        </nav>
+        <h1>Galeri Mobil</h1>
+    </header>
+    <main>
+        <section class="gallery">
+            <div class="gallery-item" onclick="viewArt('1')">
+                <img src="./assets/skyline.jpg" alt="Nissan Skyline">
+                <div class="overlay">
+                    <h3>Nissan Skyline</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="viewArt('2')">
+                <img src="./assets/mobilputih.jpg" alt="BMW">
+                <div class="overlay">
+                    <h3>BMW</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="viewArt('3')">
+                <img src="./assets/Mitsubishi Lancer Evolution.jpg" alt="Mitsubishi Lancer">
+                <div class="overlay">
+                    <h3>Mitsubishi Lancer</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="viewArt('4')">
+                <img src="./assets/Toyota GT86.jpeg" alt="Toyota GT86">
+                <div class="overlay">
+                    <h3>Toyota GT86</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="scripts/gallery.js"></script>
+</body>
+</html>
