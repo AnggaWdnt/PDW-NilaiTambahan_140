@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         '4': {
             title: 'Mercedes Benz',
-            description: 'Toyota GT86 menawarkan kombinasi sempurna antara kenyamanan dan performa.',
-            image: './assets/Toyota GT86.jpeg'
+            description: 'Mercedes Benz menawarkan kombinasi sempurna antara kenyamanan dan performa.',
+            image: './assets/mercedes.jpg'
         }
     };
 
